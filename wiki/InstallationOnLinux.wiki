@@ -2,7 +2,7 @@
 
 Tested for Ubuntu 11.10 and 12.04.
 
-=Dependencies (other libraries needed)=
+=Dependencies=
  * OpenCV (>= 2.3): 
  {{{ 
  $ sudo apt-get install libopencv-dev
