@@ -1,4 +1,6 @@
-!HowTo install the library (and examples) on Linux (tested for Ubuntu 11.10 and 12.04).
+!HowTo install the library (and examples) on Linux. 
+
+Tested for Ubuntu 11.10 and 12.04.
 
 =Dependencies (other libraries needed)=
  * OpenCV (>= 2.3): 
@@ -15,7 +17,11 @@
 
 =TIY library and examples=
 
-==A. Pre-build package (installation file)==
+Two options are available for installation:
+ * Pre-build package: one single installation file, no building necessary
+ * Build from source: further customization posiible, if no suitable package available, based on _cmake_
+
+==A. Pre-build package==
 
 _.deb_ packages with different labels are available in the [http://code.google.com/p/tiy/downloads/list Downloads] section:
  * 64-bit (_amd64_) or 32-bit (_i386_)
@@ -33,7 +39,7 @@ _.deb_ packages with different labels are available in the [http://code.google.c
  sudo dpkg -r tiy
  }}}
 
-==B. Build from source (for further customization or if no suitable package available)==
+==B. Build from source==
 
  # Download and _unzip_ the _tiy-X.X..zip_ file
  # Go into the _Release_ folder an use _cmake_ to build the make file
