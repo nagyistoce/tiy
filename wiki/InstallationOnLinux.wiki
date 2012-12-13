@@ -15,7 +15,7 @@ Tested for Ubuntu 11.10 and 12.04.
    # download and extract the newest library from http://ftp.gnome.org/pub/gnome/sources/aravis/
    # go into the directory and _configure_ (see _./configure --help_), _make_ and _make install_ the library
 
-=TIY library and examples=
+=TIY library (and examples)=
 
 Two options are available for installation:
  * Pre-build package: one single installation file, no building necessary
