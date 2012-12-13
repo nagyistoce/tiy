@@ -41,7 +41,7 @@ _.deb_ packages with different labels are available in the [http://code.google.c
 
 ==B. Build from source==
 
- # Download and _unzip_ the _tiy-X.X..zip_ file
+ # Download and _unzip_ the _tiy-X.X..zip_ file from the [http://code.google.com/p/tiy/downloads/list Downloads] section
  # Go into the _Release_ folder an use _cmake_ to build the make file
 {{{
 $ ccmake ../src
