@@ -19,7 +19,7 @@ Tested for Ubuntu 11.10 and 12.04.
 
 Two options are available for installation:
  * Pre-build package: one single installation file, no building necessary
- * Build from source: further customization posiible, if no suitable package available, based on _cmake_
+ * Build from source: further customization posible, also if no suitable package available, based on _cmake_
 
 ==A. Pre-build package==
 
