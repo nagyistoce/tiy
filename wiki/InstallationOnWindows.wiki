@@ -20,8 +20,7 @@ Tested on Windows 7 64-bit.
    # Download the installer from https://github.com/downloads/oblitum/Interception/install-interception.exe
    # Run the command prompt as admin (see point 4. under OpenCV), navigate to the directory, where the downloaded _install-interception.exe_ is located and type _install-interception.exe /install_
    # Reboot your system before the first use of the the TIY library
- * CMake (optional - only when building TIY yourself)
- http://www.cmake.org/cmake/resources/software.html
+ * CMake (optional - only when building TIY yourself) http://www.cmake.org/cmake/resources/software.html
 
 
 =TIY library (and examples)=
