@@ -62,12 +62,12 @@ $ ccmake ../src
 {{{
 $ make
 }}}
- # Install the project by
- {{{
- $ make install
- }}}
- , which is more difficult to remove or build a package by
+ # Install the project by building a package (recommended):
  {{{
  $ make package
  }}}
- and install it as under point A.2
+ and install it as under point A.2.
+ Alternatively, the project can directly be installed (more difficult to remove) by
+ {{{
+ $ make package
+ }}}
