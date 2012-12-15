@@ -1,6 +1,6 @@
-Installation instructions for the library (and examples) on linux. 
+#Installation instructions for the TIY library (and examples) on Linux. 
 
-Tested for Ubuntu 11.10 and 12.04.
+Tested for Ubuntu 11.10 and 12.04 64-bit.
 
 =Dependencies=
  * OpenCV (>= 2.3): 
@@ -11,15 +11,20 @@ Tested for Ubuntu 11.10 and 12.04.
  {{{ 
  $ sudo apt-get install libboost-dev libboost-filesystem-dev libboost-system-dev libboost-date-time1.4.6-dev libboost-thread1.46-dev
  }}}
+ * CMake and Compilers (optional - only when building TIY yourself)
+ {{{ 
+ $ sudo apt-get install cmake build-essential
+ }}}
  * Aravis (>= 0.1.15) (optional - only for Basler cameras):
    # download and extract the newest library from http://ftp.gnome.org/pub/gnome/sources/aravis/
    # go into the directory and _configure_ (see _./configure --help_), _make_ and _make install_ the library
+
 
 =TIY library (and examples)=
 
 Two options are available for installation:
  * Pre-build package: one single installation file, no building necessary
- * Build from source: further customization posible, also if no suitable package available, based on _cmake_
+ * Build from source (based on _CMake_): further customization posible, also if no suitable package available
 
 ==A. Pre-build package==
 
@@ -41,15 +46,15 @@ _.deb_ packages with different labels are available in the [http://code.google.c
 
 ==B. Build from source==
 
- # Download and _unzip_ the _tiy-X.X..zip_ file from the [http://code.google.com/p/tiy/downloads/list Downloads] section
+ # Download and _unzip_ the newest _tiy-X.X..zip_ file from the [http://code.google.com/p/tiy/downloads/list Downloads] section
  # Go into the _Release_ folder an use _cmake_ to build the make file
 {{{
 $ ccmake ../src
 }}}
  Change the options as you want to
-  * _BUILD`_`client_ _ON_: the client example will be build
+  * _BUILD`_`client_ _ON_: the client example will also be build
   * _BUILD`_`linux_x64_ _ON_: build for 64-bit
-  * _BUILD`_`server_ _ON_: the client example will be build
+  * _BUILD`_`server_ _ON_: the server example will also be build
   * _USE`_`ARAVIS_ _ON_: also build the Aravis library for Basler camera support
  and set the option _CMAKE`_`BUILD`_`TYPE_ to _Release_.
  Press the _C_ key a few times and then the _G_ key.
