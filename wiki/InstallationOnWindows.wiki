@@ -12,8 +12,7 @@ Tested on Windows 7 64-bit.
    # Run the _.exe_ file and extract
    # Create a new folder e.g. _C:\OpenCV2.4\_ and move the content of the extracted folder _opencv_ into there
    # Run _Start Menu > All Programs > Accessories > Command prompt_ as admin (right click on it and _run as administrator_) and type _command:SETX /M OPENCV_DIR C:\OpenCV2.4\build_ (or replace the directory as under point 2.)
-   # Add _;%OPENCV_DIR%\x64\vc10\bin;_ for 64-bit or _;%OPENCV_DIR%\x86\vc10\bin;_ for 32-bit to the system path
- (in Windows 7 by right click on _My Computer_ on your desktop, select _Properties_, click on _Extended system properties_, go to the _Advanced_ tab, click on _Environment Variables_ and double click on _Path_ in the _System variables_ area)
+   # Add _;%OPENCV_DIR%\x64\vc10\bin;_ for 64-bit or _;%OPENCV_DIR%\x86\vc10\bin;_ for 32-bit to the system path (in Windows 7 by right click on _My Computer_ on your desktop, select _Properties_, click on _Extended system properties_, go to the _Advanced_ tab, click on _Environment Variables_ and double click on _Path_ in the _System variables_ area)
    # Copy the files _tbb.dll_ and _tbb_debug.dll_ from _C:\OpenCV2.4\build\common\tbb\intel64\vc10\_ to _C:\OpenCV2.4\build\x64\vc10\bin_ for 64-bit and/or from _C:\OpenCV2.4\build\common\tbb\ia32\vc10\_ to _C:\OpenCV2.4\build\x86\vc10\bin_ for 32-bit
  * Boost (>= 1.46): 
    # Download the newest version from http://www.boostpro.com/download/
@@ -35,12 +34,12 @@ Two options are available for installation:
 
 ==A. Pre-build installers==
 
+Download and install the newest _tiy-X.X.-win_ _.exe_ version from the [http://code.google.com/p/tiy/downloads/list Downloads] area.
+
 _.exe_ installers with different labels are available in the [http://code.google.com/p/tiy/downloads/list Downloads] section:
  * 64-bit (_amd64_) or 32-bit (_i386_)
  * With examples (_EX_) or without
  * Examples only (_tiy`_`server_ or _tiy`_`client_)
-
- # Download and install the newest _tiy-X.X.-win_ _.exe_ version from the [http://code.google.com/p/tiy/downloads/list Downloads] area.
 
 ==B. Build from source==
 
