@@ -49,4 +49,4 @@ Different installers are available:
  # Click _Configure_ and then _Generate_
  # Go into the _build_ directory and open the Visual Studio project by opening _tiy.sln_
  # Change the build configuration from _Debug_ to _Release_ and build the project _PACKAGE_ (right click on it and select _Build_)
- # Now you have an installer as availabel under [http://code.google.com/p/tiy/downloads/list Downloads] and install it as under point A.
+ # Now you have build an installer by yourself and can install it as under point A.
