@@ -36,20 +36,20 @@ Two options are available for installation:
 
 Download and install the newest _tiy-X.X.-win_ _.exe_ version from the [http://code.google.com/p/tiy/downloads/list Downloads] area.
 
-_.exe_ installers with different labels are available in the [http://code.google.com/p/tiy/downloads/list Downloads] section:
+Different installers are available:
  * 64-bit (_amd64_) or 32-bit (_i386_)
  * With examples (_EX_) or without
  * Examples only (_tiy`_`server_ or _tiy`_`client_)
 
 ==B. Build from source==
 
- # Download and unzip the newest _tiy-X.X..zip_ file from the [http://code.google.com/p/tiy/downloads/list Downloads] section
+ # Download and unzip the newest _tiy-X.X..zip_ (or the _tiy`_`server_ or _tiy`_`client_ examples) file from the [http://code.google.com/p/tiy/downloads/list Downloads] section
  # Start _CMake_ (_cmake-gui_) and select the _src_ directory as source and the _build_ directory as build
  # Click _Configure_ and choose _Visual Studio 10_ (or 64-bit version) as generator
  # Change the options as you want to
   * _BUILD`_`client_: the client example will also be build
   * _BUILD`_`server_: the server example will also be build
  # Click _Configure_ and then _Generate_
- # Go into the _build_ direcctory and open the Visual Studio project by opening _tiy.sln_
+ # Go into the _build_ directory and open the Visual Studio project by opening _tiy.sln_
  # Change the build configuration from _Debug_ to _Release_ and build the project _PACKAGE_ (right click on it and select _Build_)
  # Now you have an installer as availabel under [http://code.google.com/p/tiy/downloads/list Downloads] and install it as under point A.
