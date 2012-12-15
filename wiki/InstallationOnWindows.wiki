@@ -12,8 +12,8 @@ Tested on Windows 7 64-bit.
    # Run the _.exe_ file and extract
    # Create a new folder e.g. _C:\OpenCV2.4\_ and move the content of the extracted folder _opencv_ into there
    # Run _Start Menu > All Programs > Accessories > Command prompt_ as admin (right click on it and _run as administrator_) and type _command:SETX /M OPENCV_DIR C:\OpenCV2.4\build_ (or replace the directory as under point 2.)
-   # Extend the system path (in Windows 7 by right click on _My Computer_ on your desktop, select _Properties_, click on _Extended system properties_, go to the _Advanced_ tab, click on _Environment Variables_ and double click on _Path_ in the _System variables_ area):
-   Add _;%OPENCV_DIR%\x64\vc10\bin;_ for 64-bit or _;%OPENCV_DIR%\x86\vc10\bin;_ for 32-bit
+   # Add _;%OPENCV_DIR%\x64\vc10\bin;_ for 64-bit or _;%OPENCV_DIR%\x86\vc10\bin;_ for 32-bit to the system path
+ (in Windows 7 by right click on _My Computer_ on your desktop, select _Properties_, click on _Extended system properties_, go to the _Advanced_ tab, click on _Environment Variables_ and double click on _Path_ in the _System variables_ area)
    # Copy the files _tbb.dll_ and _tbb_debug.dll_ from _C:\OpenCV2.4\build\common\tbb\intel64\vc10\_ to _C:\OpenCV2.4\build\x64\vc10\bin_ for 64-bit and/or from _C:\OpenCV2.4\build\common\tbb\ia32\vc10\_ to _C:\OpenCV2.4\build\x86\vc10\bin_ for 32-bit
  * Boost (>= 1.46): 
    # Download the newest version from http://www.boostpro.com/download/
@@ -50,7 +50,7 @@ _.exe_ installers with different labels are available in the [http://code.google
  # Change the options as you want to
   * _BUILD`_`client_: the client example will also be build
   * _BUILD`_`server_: the server example will also be build
-, click _Configure_ and then _Generate_
+ # Click _Configure_ and then _Generate_
  # Go into the _build_ direcctory and open the Visual Studio project by opening _tiy.sln_
  # Change the build configuration from _Debug_ to _Release_ and build the project _PACKAGE_ (right click on it and select _Build_)
  # Now you have an installer as availabel under [http://code.google.com/p/tiy/downloads/list Downloads] and install it as under point A.
