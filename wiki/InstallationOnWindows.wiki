@@ -1,6 +1,4 @@
-#summary One-sentence summary of this page.
-
-#Installation instructions for the TIY library (and examples) on Windows. 
+Installation instructions for the TIY library (and examples) on Windows. 
 
 Tested on Windows 7 64-bit.
 
