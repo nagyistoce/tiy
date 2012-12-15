@@ -3,19 +3,19 @@ Installation instructions for the TIY library (and examples) on Linux.
 Tested for Ubuntu 11.10 and 12.04 64-bit.
 
 =Dependencies=
- * OpenCV (>= 2.3): 
+ * *OpenCV* (>= 2.3): 
  {{{ 
  $ sudo apt-get install libopencv-dev
  }}}
- * Boost (>= 1.46): 
+ * *Boost* (>= 1.46): 
  {{{ 
  $ sudo apt-get install libboost-dev libboost-filesystem-dev libboost-system-dev libboost-date-time1.4.6-dev libboost-thread1.46-dev
  }}}
- * CMake and Compilers (optional - only when building TIY yourself)
+ * *CMake* and Compilers (optional - only when building TIY yourself)
  {{{ 
  $ sudo apt-get install cmake build-essential
  }}}
- * Aravis (>= 0.1.15) (optional - only for Basler cameras):
+ * *Aravis* (>= 0.1.15) (optional - only for Basler cameras):
    # download and extract the newest library from http://ftp.gnome.org/pub/gnome/sources/aravis/
    # go into the directory and _configure_ (see _./configure --help_), _make_ and _make install_ the library
 
