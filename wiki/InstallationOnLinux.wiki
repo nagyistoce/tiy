@@ -1,4 +1,4 @@
-#Installation instructions for the TIY library (and examples) on Linux. 
+Installation instructions for the TIY library (and examples) on Linux. 
 
 Tested for Ubuntu 11.10 and 12.04 64-bit.
 
