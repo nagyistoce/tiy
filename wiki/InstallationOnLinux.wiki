@@ -69,5 +69,5 @@ $ make
  and install it as under point A.2.
  Alternatively, the project can directly be installed (more difficult to remove) by
  {{{
- $ make package
+ $ make install
  }}}
