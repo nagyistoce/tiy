@@ -15,7 +15,7 @@ Tested on Windows 7 64-bit.
  * Boost (>= 1.46): 
    # Download the newest version from http://www.boostpro.com/download/
    # During installation, select _Visual C++ 10.0_, _multithreaded_ and _multithreaded debug_
-   # If you need to save space, deselect all Boost libraries except for _Chrono_, _DateTime_, _Filesystem_, _Regex_, _System_ and _Thread_
+   # If you need to save space, deselect all Boost libraries except for _Chrono_, _!DateTime_, _Filesystem_, _Regex_, _System_ and _Thread_
  * Interception:
    # Download the installer from https://github.com/downloads/oblitum/Interception/install-interception.exe
    # Run the command prompt as admin (see point 4. under OpenCV), navigate to the directory, where the downloaded _install-interception.exe_ is located and type _install-interception.exe /install_
