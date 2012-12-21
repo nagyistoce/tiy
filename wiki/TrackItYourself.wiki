@@ -5,7 +5,7 @@ Before installing the hardware, you should start installing the software and get
 
 Go to [http://code.google.com/p/tiy/wiki/InstallationOnWindows InstallationOnWindows] to see how to install the TIY library *and examples* on Windows, or [http://code.google.com/p/tiy/wiki/InstallationOnLinux InstallationOnLinux] for Linux systems respectively.
 
-= 2. First software tests =
+= 2. Software tests =
 To get a first impression of the software and check if everything works fine, you should start the _client_ and _server_ program and play with the _config`_`run`_`parameters.xml_ configuration file.
 
 On Linux you have to change the _<keyboard`_`device`_`id>_ field in the run configuration file to define your keyboard before starting the _/usr/local/tiy/client_ and _/usr/local/tiy/server_ programs (see therefore _/user/include/tiy/inputDevice/unix/!LinuxDevice`_`README.txt_). 
