@@ -8,11 +8,11 @@ Go to [http://code.google.com/p/tiy/wiki/InstallationOnWindows InstallationOnWin
 = 2. First software tests =
 To get a first impression of the software and check if everything works fine, you should start the _client_ and _server_ program and play with the _config`_`run`_`parameters.xml_ configuration file.
 
-On Linux you have to change the _<keyboard`_`device`_`id>_ field in the run configuration file to define your keyboard before starting the _/usr/local/tiy/client_ and _/usr/local/tiy/server_ programs (see therefore _/user/include/tiy/inputDevice/unix/LinuxDevice`_`README.txt_). 
+On Linux you have to change the _<keyboard`_`device`_`id>_ field in the run configuration file to define your keyboard before starting the _/usr/local/tiy/client_ and _/usr/local/tiy/server_ programs (see therefore _/user/include/tiy/inputDevice/unix/!LinuxDevice`_`README.txt_). 
 
 On Windows systems you can start _C:/tiy/bin/tiy/client.exe_ and _C:/tiy/bin/tiy/server.exe_ without any preconfigurations.
 
-Two recorded stereo videos should show up and data send from the server to the client. Detected 3D points are marked by a small black circle in the middle of the white shining marker balls and detected objects ba a big circle in the middle of the first marker of every object.
+Two recorded stereo videos should show up and data send from the server to the client. Detected 3D points are marked by a small black circle in the middle of the white shining marker balls and detected objects by a big circle in the middle of the first marker of every object.
 
 The example programs have different features that can be configured by editing the _config`_`run`_`parameters.xml_ file in the same directory as the programs. Although the options should be self-explaining and are commented, try some changes.
 
