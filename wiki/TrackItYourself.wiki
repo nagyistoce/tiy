@@ -29,4 +29,4 @@ Now that the system works, you can start attaching markers to objects you want t
 Both steps are explained in the [http://code.google.com/p/tiy/wiki/ObjectSetUp ObjectSetUp] section.
 
 
-Once you succesfully went through all the steps, you can download the souce code of the _client_ program from the [http://code.google.com/p/tiy/downloads/list Downloads] section and integrate it in your own software to use the 3D object data.
+Once you succesfully went through all the steps, you can download the souce code of the _client_ program from the [http://code.google.com/p/tiy/downloads/list Downloads] section and integrate it in your own software.
