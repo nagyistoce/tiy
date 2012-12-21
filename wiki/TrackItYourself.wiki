@@ -16,7 +16,7 @@ http://tiy.googlecode.com/files/server_screenshot.jpg
 
 Two windows (like that above) with recorded stereo videos should show up and data send from the server to the client. Detected 3D points are marked by a small black circle in the middle of the white shining marker balls and detected objects by a big circle in the middle of the first marker of every object.
 
-The example programs have different features that can be configured by editing the _config`_`run`_`parameters.xml_ file in the same directory as the programs. Although the options should be self-explaining and are commented, try some changes.
+The example programs have different features that can be configured by editing the _config`_`run`_`parameters.xml_ file located in the same directory as the programs. Although the options should be self-explaining and are commented, try some changes.
 
 = 3. Camera setup and configuration ==
 The next step is to set up the camera system and configure it in order to have a real stereo input for the TIY software instead of recorded videos.
