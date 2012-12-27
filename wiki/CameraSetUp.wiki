@@ -11,10 +11,10 @@ GigE cameras working with the used Aravis library on linux can be seen here: htt
 They have high resolutions, provide many different settings and have small distortions.
 
 However they are expensive and additional hardware is needed (e.g. for 2 _Basler acA1300-30GC_ cameras):
- *2 Power over ethernet (PoE) power supply (e.g. _PHIHONG POE20U-560(G)_)
- *4 CAT6 Gigabit ethernet network cables (camera`<->`PoE and PoE`<->`pc)
- *2 gigabit ethernet network cards (e.g. _Intel PRO/1000 GT Desktop_)
- *2 IR-pass filters (e.g. from _Baader_ or _Astronomik_)
+ * 2 Power over ethernet (PoE) power supply (e.g. _PHIHONG POE20U-560(G)_)
+ * 4 CAT6 Gigabit ethernet network cables (camera`<->`PoE and PoE`<->`pc)
+ * 2 Gigabit ethernet network cards (e.g. _Intel PRO/1000 GT Desktop_)
+ * 2 IR-pass filters (e.g. from _Baader_ or _Astronomik_)
 
 ===OpenCV cameras===
 Much cheaper and easier to use are (USB) cameras supported by opencv. Some of them can be found at http://opencv.willowgarage.com/wiki/Welcome/OS.
