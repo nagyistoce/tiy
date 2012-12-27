@@ -28,18 +28,14 @@ To filter out the visible range of light, but see the infrared light, an IR-pass
 Alternatively, there are web pages where you can buy adapters for webcams, where you then can put IR-pass filters from e.g. _Baader_ or _Astronomik_ in it. One page with a list of supported webcams is e.g. http://webcaddy.com.au/astro/M12Cameras.htm.
 
 ==Infrared light==
-Besides the two cameras with IR-pass filters you also need infrared lights. 
+Besides the two cameras with IR-pass filters you also need infrared lights. It is very important that they are attached close to the cameras and shine in the same direction.
 
-It is very important, that they need to shine in the same direction as the cameras and as close to it as possible to collect as much reflected IR-light as possible.
+A common way is to buy LED IR-spotlights/illuminators (e.g. 4 _Kingbright BL0106-15-28_ with (preferably adjustable) power supply _ANSMANN APS 2250L_) and attach them to the cameras.
 
-The easiest way is to buy LED IR-spotlights/illuminators (e.g. 4 _Kingbright BL0106-15-28_ with (preferably adjustable) power supply _ANSMANN APS 2250L_) and attach them besides the cameras.
+=Set up the cameras for TIY=
+To use the real cameras in the TIY _server_ program instead of the recorded videos, change the option _<input`_`src>_ in the _config`_`run`_`parameters.xml_ configuration file to either _b_ to use the Aravis interface (e.g. for GigE Basler cameras) or to _o_ for using the OpenCV interface (e.g. for USB webcams).
 
-=Use the cameras for TIY=
-To use the real cameras in the TIY _server_ example instead of the recorded videos, change the option _<input`_`src>_ in the _config`_`run`_`parameters.xml_ configuration file to either _b_ to use the Aravis interface (e.g. for GigE Basler cameras) or to _o_ for using the OpenCV interface (e.g. for USB webcams).
-
-When starting the _server_ program, a failure should occur and all connected cameras listed. The names/numbers need to be copied and filled into the first two fields of the _config`_`camera.xml_ configuration file. In addition, the frame width, height and rate should be adapted before the next start of the _server_ program.
-
-Perhaps the left and right camera id need to be changed or the exposure/gain adapted.
+When starting the _server_ program, an error should occur and all connected cameras listed. The appeared names/numbers need to be filled into the first two fields of the _config`_`camera.xml_ configuration file. In addition, the frame width, height and rate must be adapted. The exposure, gain and segmentation areas need to be tested and adjusted when testing the object tracking.
 
 =Camera calibration=
 To use the two cameras as one stereo camera, you need both the intrinsic and extrinsic camera parameters.
