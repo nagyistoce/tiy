@@ -24,7 +24,7 @@ The next step is to set up the camera system and configure it. All steps are exp
 If everything worked well, you can put markers in the sight of your cameras and start the _server_ program. Now you should see small black circles in the middle of the white shining markers detected as 3D points.
 
 = 4. Marker object setup and configuration ==
-After setting up the tracking system, markers need to be attached to the objects you want to be tracked and configured afterwards.
+After setting up the tracking system, attach markers to any objects that need to be tracked and configure them afterwards.
 
 Both steps are explained in the [http://code.google.com/p/tiy/wiki/ObjectSetUp ObjectSetUp] section.
 
