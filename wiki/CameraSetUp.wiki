@@ -1,4 +1,4 @@
-#Tutorial on what cameras with infrared components needed and how to configure them as a stereo camera (for the TIY _server_ program). 
+# Tutorial on what cameras with infrared components needed and how to configure them as a stereo camera (for the TIY _server_ program). 
 
 =What hardware components should I use?=
 In the following, a small selection of components is listed.
