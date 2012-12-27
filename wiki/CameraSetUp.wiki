@@ -17,7 +17,7 @@ However they are expensive and additional hardware is needed (e.g. for 2 _Basler
  * 2 IR-pass filters (e.g. from _Baader_ or _Astronomik_)
 
 ===OpenCV cameras===
-Much cheaper and easier to use are (USB) cameras supported by opencv. Some of them can be found at http://opencv.willowgarage.com/wiki/Welcome/OS.
+Much cheaper and easier to use are (USB) cameras supported by opencv (small selection at http://opencv.willowgarage.com/wiki/Welcome/OS).
 
 The more far away the two cameras are, the higher must be the resolution and the faster the objects must be tracked, the higher must be FPS rate.
 
