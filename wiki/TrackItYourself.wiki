@@ -1,7 +1,7 @@
 Tutorial on how to get your own marker tracking system to run in 4 steps.
 
 = 1. TIY software installation =
-Before installing the hardware, you should start installing the software and getting familiar with it. 
+Before installing the hardware, you should start with installing the software and getting familiar with it. 
 
 Go to [http://code.google.com/p/tiy/wiki/InstallationOnWindows InstallationOnWindows] to see how to install the TIY library *and examples* on Windows, or [http://code.google.com/p/tiy/wiki/InstallationOnLinux InstallationOnLinux] for Linux systems respectively.
 
