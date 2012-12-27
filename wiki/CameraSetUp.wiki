@@ -21,7 +21,7 @@ Much cheaper and easier to use are (USB) cameras supported by opencv. Some of th
 
 The more far away the two cameras are, the higher must be the resolution and the faster the objects must be tracked, the higher must be FPS rate.
 
-Unfortunately most of the webcams have IR cut filters in it. To remove it, see http://www.instructables.com/id/Infrared-IR-Webcam/ or especially for the well-known Logitech QuickCam Pro 9000 http://www.ce.rit.edu/research/projects/2008_fall/Drowsy_Driver_Warning_System/tutorials/tutorial_ir.html.
+Unfortunately most of the webcams have IR cut filters in it. To remove it, see http://www.instructables.com/id/Infrared-IR-Webcam/ or especially for the well-known Logitech !QuickCam Pro 9000 http://www.ce.rit.edu/research/projects/2008_fall/Drowsy_Driver_Warning_System/tutorials/tutorial_ir.html.
 
 To filter out the visible range of light, but see the infrared light, an IR-pass filter is needed. In the first tutorial it is already mentioned to put an IR-pass filter created from an unexposed (black) processed film in the camera after removing the IR cut filter. Another tutorial to build an IR-pass filter by yourself can be seen at http://www.diyphotography.net/take_infrared_pictures_with_digital_camera_ir_filter.
 
