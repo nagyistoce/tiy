@@ -4,7 +4,7 @@ Tested on Windows 7 64-bit.
 
 =Dependencies=
  * *Visual Studio 2010 / Visual C++ 10.0* from http://www.microsoft.com/visualstudio/eng/downloads#d-2010-express
- (for other compilers some of the following steps could be different)
+  (for other compilers some of the following steps could be different)
  * *OpenCV* (>= 2.3):
    # Download the newest Version from http://sourceforge.net/projects/opencvlibrary/files/opencv-win/
    # Run the _.exe_ file and extract
@@ -21,7 +21,7 @@ Tested on Windows 7 64-bit.
    # Run the command prompt as admin (see point 4. under OpenCV), navigate to the directory, where the downloaded _install-interception.exe_ is located and type _install-interception.exe /install_
    # Reboot your system before the first use of the the TIY library
  * *CMake* (optional - only when building TIY yourself):
- Downloadable from http://www.cmake.org/cmake/resources/software.html
+  Downloadable from http://www.cmake.org/cmake/resources/software.html
 
 =TIY library (and examples)=
 
