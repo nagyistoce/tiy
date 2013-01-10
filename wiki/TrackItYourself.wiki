@@ -1,4 +1,4 @@
-Tutorial on how to get your own marker tracking system to run in 4 steps.
+#summary Tutorial on how to get your own marker tracking system to run in 4 steps.
 
 = 1. TIY software installation =
 Before installing the hardware, you should start with installing the software and getting familiar with it. 
