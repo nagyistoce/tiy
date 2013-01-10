@@ -1,4 +1,4 @@
-Installation instructions for the TIY library (and examples) on Windows. 
+#summary Installation instructions for the TIY library (and examples) on Windows.
 
 Tested on Windows 7 64-bit.
 
