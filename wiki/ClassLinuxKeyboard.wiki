@@ -48,11 +48,11 @@ int main(int argc, char* argv[])
   std::string keyboard_device_id = "/dev/input/my-mouse-event";
   int read_intervall_ms = 1;  
 
-  // Create a LinuxKeyboard object
+  // 1. Create a LinuxKeyboard object (here from an KeyboardDevice object)
   boost::scoped_ptr<tiy::KeyboardDevice> keyboard_device;
   keyboard_device.reset(new tiy::LinuxKeyboard(do_debugging));
 
-  // Open the keyboard device and start reading it
+  // 2. Connect to a specific keyboard device and start reading it
   if (!keyboard_device->openAndReadKeyboard(keyboard_device_id, read_intervall_ms))
   {
 	std::cout << "KeyboardDevice::openAndReadKeyboard() failed" << std::endl;
@@ -66,8 +66,9 @@ int main(int argc, char* argv[])
   {
       bool was_SPACE_pressed=false, was_ESC_pressed=false;
 
-      // Update mouse and keyboard status
+      // 3. Get the status of the keys
       keyboard_device->getStatusSinceLastReset(was_SPACE_pressed, was_ESC_pressed);
+      // 4. Reset the status of the keys
       keyboard_device->resetStatus();
 
       if (was_SPACE_pressed)
