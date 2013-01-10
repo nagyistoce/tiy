@@ -9,8 +9,6 @@ See child classes [http://code.google.com/p/tiy/wiki/ClassLinuxKeyboard LinuxKey
 = Variables =
 
 {{{
-boost::mutex keyboard_mutex
-
 boost::mutex keyboard_mutex;
 
 bool do_debugging;
@@ -21,3 +19,27 @@ bool was_SPACE_pressed, was_ESC_pressed;
 }}}
 
 = Methods =
+
+{{{
+protected:
+	// Start reading the keyboard in a loop (called by openAndReadKeyboard() in a new thread)
+	virtual void startRead(int& read_intervall_ms) = 0;
+
+	// Update (set) the event variables
+	void updateStatus(bool& was_SPACE_pressed_, bool& was_ESC_pressed_);
+}}}
+
+{{{
+	KeyboardDevice(bool& do_debugging_);
+
+	virtual ~KeyboardDevice() {};
+
+	// Connect to the keyboard and start reading it (starts "startRead()" in a new thread)
+	virtual bool openAndReadKeyboard(std::string& event_file_name, int& read_intervall_ms) = 0;
+
+	// Get the values of the event variables (without resetting!)
+	void getStatusSinceLastReset(bool& was_SPACE_pressed_, bool& was_ESC_pressed_);
+
+	// Reset the values of the event variables (should usually be called directly after getStatusSinceLastReset())
+	void resetStatus();
+}}}
