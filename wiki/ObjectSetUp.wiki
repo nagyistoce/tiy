@@ -1,4 +1,4 @@
-Tutorial on how to attach marker balls to object that need to be tracked and configure them for TIY.
+#summary Tutorial on how to attach marker balls to object that need to be tracked and configure them for TIY.
 
 =Building the targets=
 If you do not want to build the targets by yourself, look at http://www.ar-tracking.com/products/markers-targets/targets/passive/ or http://www.iotracker.com/index.php?q=rigid_body_targets. Otherwise you can build the targets from objects and markers by yourself as explained in the following.
