@@ -1,10 +1,10 @@
 #summary Tutorial on how to include and use the library in your own project with CMake.
 
-== 1. Install the TIY library ==
+= 1. Install the TIY library =
 
 Go to [http://code.google.com/p/tiy/wiki/InstallationOnWindows InstallationOnWindows] to see how to install the TIY library (and examples) on Windows, or [http://code.google.com/p/tiy/wiki/InstallationOnLinux InstallationOnLinux] for Linux systems respectively.
 
-== 2. Setup Cmake ==
+= 2. Setup Cmake =
 
 Copy the files _Findtiy.cmake_, _LibFindMacros.cmake_ and _Findaravis.cmake_ from the _src_ directory of the _tiy`_`server_ example ([http://code.google.com/p/tiy/downloads/list Downloads]) into your project directory.
 
@@ -140,9 +140,9 @@ TARGET_LINK_LIBRARIES(
 )
 }}}
 
-== 3. Build and Start Your Project ==
+= 3. Build and Start Your Project =
 
-=== Linux ===
+== Linux ==
 Create a subdirectory in the project folder. Open a terminal, navigate to this folder and use _cmake_ to build the make file:
 {{{
 $ ccmake ..
@@ -161,7 +161,7 @@ and start it
 $ ./main
 }}}
 
-=== Windows ===
+== Windows ==
  # Create a subdirectory in your project directory. 
  # Start _CMake_ (_cmake-gui_) and select your project directory as _source_ and the created subdirectory as _build_
  # Click _Configure_ and choose _Visual Studio 10_ (or 64-bit version) as generator
