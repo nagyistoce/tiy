@@ -2,7 +2,7 @@
 
 The !KeyboardDevice class is an abstract base class for low level keyboard reading. 
 
-Child classes inheriting from !KeyboardDevice are [http://code.google.com/p/tiy/wiki/ClassLinuxKeyboard LinuxKeyboard] and [http://code.google.com/p/tiy/wiki/WindowsKeyboard WindowsKeyboard].
+Child classes inheriting from !KeyboardDevice are [http://code.google.com/p/tiy/wiki/ClassLinuxKeyboard LinuxKeyboard] and [http://code.google.com/p/tiy/wiki/ClassWindowsKeyboard WindowsKeyboard].
 
 = Usage = 
 
