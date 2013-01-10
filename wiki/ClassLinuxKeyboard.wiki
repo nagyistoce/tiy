@@ -1,6 +1,6 @@
 #summary Documentation of the LinuxKeyboard class
 
-The !LinuxKeyboard class is the child class of [http://code.google.com/p/tiy/wiki/KeyboardDevice KeyboardDevice] for low level keyboard reading in Linux.
+The !LinuxKeyboard class is the child class of [http://code.google.com/p/tiy/wiki/ClassKeyboardDevice KeyboardDevice] for low level keyboard reading in Linux.
 
 It is based on reading out the event file of a specific (keyboard) device. This is done in a while loop started in a seperate thread.
 
