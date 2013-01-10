@@ -4,7 +4,7 @@
 
 Go to [http://code.google.com/p/tiy/wiki/InstallationOnWindows InstallationOnWindows] to see how to install the TIY library (and examples) on Windows, or [http://code.google.com/p/tiy/wiki/InstallationOnLinux InstallationOnLinux] for Linux systems respectively.
 
-== 2. SetUp Cmake ==
+== 2. Setup Cmake ==
 
 Copy the files _Findtiy.cmake_, _LibFindMacros.cmake_ and _Findaravis.cmake_ from the _src_ directory of the _tiy`_`server_ example ([http://code.google.com/p/tiy/downloads/list Downloads]) into your project directory.
 
