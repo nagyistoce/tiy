@@ -1,0 +1,23 @@
+#summary Documentation of the KeyboardDevice class
+
+The KeyboardDevice class is an abstract base class for keyboard reading and is used to interact with the TIY software. Child classes inheriting from it are [http://code.google.com/p/tiy/wiki/ClassLinuxKeyboard LinuxKeyboard] and [http://code.google.com/p/tiy/wiki/WindowsKeyboard WindowsKeyboard].
+
+= Usage = 
+
+See child classes [http://code.google.com/p/tiy/wiki/ClassLinuxKeyboard LinuxKeyboard] and [http://code.google.com/p/tiy/wiki/WindowsKeyboard WindowsKeyboard], as not directly used.
+
+= Variables =
+
+{{{
+boost::mutex keyboard_mutex
+
+boost::mutex keyboard_mutex;
+
+bool do_debugging;
+bool is_open;
+
+// Keystroke event variables
+bool was_SPACE_pressed, was_ESC_pressed;
+}}}
+
+= Methods =
