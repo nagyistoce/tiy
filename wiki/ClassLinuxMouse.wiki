@@ -7,9 +7,9 @@ It is based on reading out the event file of a specific (mouse) device. This is 
 = Usage = 
 
  * The mouse device is blocked for ALL other apllications (incl. OS)
- * Press and release events of the left and right mouse buttons implemented, as well as turning the mouse wheel
+ * Press and release events of the left and right mouse buttons are implemented, as well as turning the mouse wheel
  * Only ONE press and one release event buffered per button since last button status reset	
- * Users have to reset the status manually (usually after each status request)	
+ * Users have to reset the button status manually (usually after each status request)	
 
 == Creating a specific event-file (optional) ==
 As the event files _event0_,_event1_,... created by unix in _/dev/input/_ can change at every start or re-plug, the best way is to build a udev rule to connect a specific device to a specific event-file:
