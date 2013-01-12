@@ -38,6 +38,8 @@ KERNEL=="event*",SUBSYSTEM=="input",ATTRS{idVendor}=="0458",ATTRS{idProduct}=="0
   
 == Example ==
 
+See [http://code.google.com/p/tiy/wiki/IncludeLibrary IncludeLibrary] on how to include the TIY library in your own code (e.g. this example).
+
 {{{
 #include <tiy.h>
 //#include <pwd.h>
