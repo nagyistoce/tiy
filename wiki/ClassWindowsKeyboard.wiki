@@ -18,10 +18,10 @@ It is based on [http://oblita.com/Interception.html intercepting] keystrokes of 
 
 int main(int argc, char* argv[])
 {
-  std::string keyboard_device_id = "/dev/input/my-mouse-event";
-  int read_intervall_ms = 1;  
+  std::string keyboard_device_id = ""; //Not used
+  int read_intervall_ms = 1; //Not used
 
-  // 1. Create a WindowsKeyboard object (here from an KeyboardDevice object)
+  // 1. Create a WindowsKeyboard object (here from a KeyboardDevice object)
   boost::scoped_ptr<tiy::KeyboardDevice> keyboard_device;
   keyboard_device.reset(new tiy::WindowsKeyboard(do_debugging));
 
