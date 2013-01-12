@@ -13,6 +13,8 @@ It is based on [http://oblita.com/Interception.html intercepting] keystrokes of 
 
 == Example ==
 
+See [http://code.google.com/p/tiy/wiki/IncludeLibrary IncludeLibrary] on how to include the TIY library in your own code (e.g. this example).
+
 {{{
 #include <tiy.h>
 
