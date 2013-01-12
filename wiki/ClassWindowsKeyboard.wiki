@@ -54,7 +54,7 @@ int main(int argc, char* argv[])
       {
           std::cout << "ESC key was pressed." << std::endl;
     	  std::cin.get();
-    	  return 0;
+    	  break;
       }
 
       boost::this_thread::sleep(boost::posix_time::milliseconds(read_intervall_ms/2));
