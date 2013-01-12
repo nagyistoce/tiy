@@ -49,6 +49,7 @@ int main(int argc, char* argv[])
 {
   std::string keyboard_device_id = "/dev/input/my-keyboard-event";
   int read_intervall_ms = 1;  
+  bool do_debugging = false;
 
   // 1. Create a LinuxKeyboard object (here from an KeyboardDevice object)
   boost::scoped_ptr<tiy::KeyboardDevice> keyboard_device;
