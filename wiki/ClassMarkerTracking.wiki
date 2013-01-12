@@ -6,12 +6,11 @@ The algorithms are largely based on a [http://www6.in.tum.de/Main/Publications/G
 
 = Usage = 
 
- * The mouse device is blocked for ALL other apllications (incl. OS)
- * Press and release events of the left and right mouse buttons are implemented, as well as turning the mouse wheel
- * Only ONE press and one release event buffered per button since last button status reset	
- * Users have to reset the button status manually (usually after each status request)
+The basic procedure of tracking objects with markers attached to it by using this class can be seen in the Example section. 
 
 == Example ==
+
+This is NOT a full example, as it should only show the basic usage. A full working and complex example is given by the _tiy`_`server_ example from the [http://code.google.com/p/tiy/downloads/list Downloads] section (see [http://code.google.com/p/tiy/wiki/InstallationOnWindows InstallationOnWindows]/[http://code.google.com/p/tiy/wiki/InstallationOnLinux InstallationOnLinux] on how to install the TIY library including it and perhaps [http://code.google.com/p/tiy/wiki/TrackItYourself TrackItYourself] for a full TIY tutorial). 
 
 See [http://code.google.com/p/tiy/wiki/IncludeLibrary IncludeLibrary] on how to include the TIY library in your own code (e.g. this example).
 
