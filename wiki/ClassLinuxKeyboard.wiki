@@ -20,18 +20,18 @@ $ lsusb
  }}}
  , plug the device in, run _lsusb_ again and watch for a new line like
  {{{
-Bus 004 Device 005: ID 0458:00c5 KYE Systems Corp. (Mouse Systems)
+Bus 004 Device 005: ID 0458:00c5 KYE Systems Corp. (Keyboard Systems)
  }}}
  vid: 0458, pid: 00c5
 
- Second add and set a new udev rule (e.g. "66-my-mouse-usb.rules")
+ Second add and set a new udev rule (e.g. "66-my-keyboard-usb.rules")
  {{{
-$ sudo gedit /etc/udev/rules.d/66-genius-mouse-usb.rules
+$ sudo gedit /etc/udev/rules.d/66-my-keyboard-usb.rules
  }}}
- and write (e.g. of the vid and pid above and the new event-file _/dev/input/my-mouse-event_
+ and write (e.g. of the vid and pid above and the new event-file _/dev/input/my-keyboard-event_
  {{{
 KERNEL=="event*",SUBSYSTEM=="input",ATTRS{idVendor}=="0458",ATTRS{idProduct}=="00c5",MODE="0644"
-KERNEL=="event*",SUBSYSTEM=="input",ATTRS{idVendor}=="0458",ATTRS{idProduct}=="00c5",SYMLINK+="input/my-mouse-event"
+KERNEL=="event*",SUBSYSTEM=="input",ATTRS{idVendor}=="0458",ATTRS{idProduct}=="00c5",SYMLINK+="input/my-keyboard-event"
  }}}
 
  Third save the file and restart the computer to activate the rule.
@@ -45,7 +45,7 @@ KERNEL=="event*",SUBSYSTEM=="input",ATTRS{idVendor}=="0458",ATTRS{idProduct}=="0
 
 int main(int argc, char* argv[])
 {
-  std::string keyboard_device_id = "/dev/input/my-mouse-event";
+  std::string keyboard_device_id = "/dev/input/my-keyboard-event";
   int read_intervall_ms = 1;  
 
   // 1. Create a LinuxKeyboard object (here from an KeyboardDevice object)
