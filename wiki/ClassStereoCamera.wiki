@@ -8,7 +8,7 @@ Child classes inheriting from !StereoCamera are [http://code.google.com/p/tiy/wi
 
 This base class implements the possibility of recording and showing the stereo frames. 
 
-For more (with examples), see child classes [http://code.google.com/p/tiy/wiki/ClassOpenCVStereoCamera OpenCVStereoCamera] and [http://code.google.com/p/tiy/wiki/ClassBaslerGigEStereoCamera BaslerGigEStereoCamera].
+For more informations (including examples), see child classes [http://code.google.com/p/tiy/wiki/ClassOpenCVStereoCamera OpenCVStereoCamera] and [http://code.google.com/p/tiy/wiki/ClassBaslerGigEStereoCamera BaslerGigEStereoCamera].
 
 = Declaration =
 
