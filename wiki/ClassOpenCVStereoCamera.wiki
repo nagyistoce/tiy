@@ -1,6 +1,6 @@
 #summary Documentation of the OpenCVStereoCamera class
 
-The !OpenCVStereoCamera class is a child class of [http://code.google.com/p/tiy/wiki/ClassStereoCamera StereoCamera] for handling opencv stereo cameras. 
+The !OpenCVStereoCamera class is a child class of [http://code.google.com/p/tiy/wiki/ClassStereoCamera StereoCamera] for handling two opencv supported cameras to use as a stereo camera. 
 
 = Usage = 
 
