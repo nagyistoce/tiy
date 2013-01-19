@@ -2,18 +2,18 @@
 
 The !WindowsMouse class is the child class of [http://code.google.com/p/tiy/wiki/ClassMouseDevice MouseDevice] for low level mouse reading in Windows.
 
-It is based on [http://oblita.com/Interception.html intercepting] mouse events of a specific (mouse) device. This is done in a while loop started in a seperate thread.
+It is based on [http://oblita.com/Interception.html intercepting] mouse events of a specific (mouse) device. This is done in a while loop started in a separate thread.
 
 = Usage = 
 
- * The mouse device is blocked for ALL other apllications (incl. OS)
+ * The mouse device is blocked for ALL other applications (incl. OS)
  * Press and release events of the left and right mouse buttons are implemented, as well as turning the mouse wheel
  * Only ONE press and one release event buffered per button since last button status reset	
  * Users have to reset the button status manually (usually after each status request)
 
 == Getting the hardware id of a specific mouse ==
 
-In order to use and block only one specific mouse connected, this device needs to be identified by its hardware id. The WindowsMouse class needs a string with the components "VID`_`xxxx" (vendor id) and "PID`_`xxxx" (product id) like "VID_046DPID_C52B".
+In order to use and block only one specific mouse connected, this device needs to be identified by its hardware id. The !WindowsMouse class needs a string with the components "VID`_`xxxx" (vendor id) and "PID`_`xxxx" (product id) like "VID_046DPID_C52B".
 
 The vid and pid can easily be get by going into the Windows _Device Manager_ -> right clicking on the device -> _Properties_ -> _Details_ tab -> choosing the _Property_: _Hardware-IDs_ and copying one of the hids containing the strings "VID_xxx" and "PID_xxx".
 
