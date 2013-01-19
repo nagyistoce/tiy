@@ -19,7 +19,7 @@ Tested on Windows 7 64-bit.
  * *Interception*:
    # Download the installer from https://github.com/downloads/oblitum/Interception/install-interception.exe
    # Run the command prompt as admin (see point 4. under OpenCV), navigate to the directory, where the downloaded _install-interception.exe_ is located and type _install-interception.exe /install_
-   # Reboot your system before the first use of the the TIY library
+   # Reboot your system before the first use of the TIY library
  * *CMake* (optional - only when building TIY yourself):
   Downloadable from http://www.cmake.org/cmake/resources/software.html
 
@@ -27,7 +27,7 @@ Tested on Windows 7 64-bit.
 
 Two options are available for installation:
  * Pre-build installers: one single installation file, no building necessary
- * Build from source (based on _CMake_): further customization posible, also if no suitable installer available
+ * Build from source (based on _CMake_): further customization possible, also if no suitable installer available
 
 ==A. Pre-build installers==
 
@@ -49,4 +49,4 @@ Different installers are available:
  # Click _Configure_ and then _Generate_
  # Go into the _build_ directory and open the Visual Studio project by opening _tiy.sln_
  # Change the build configuration from _Debug_ to _Release_ and build the project _PACKAGE_ (right click on it and select _Build_)
- # Now you have build an installer by yourself and can install it as under point A.
+ # Now you have built an installer by yourself and can install it as under point A.
