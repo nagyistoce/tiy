@@ -2,13 +2,13 @@
 
 The !WindowsKeyboard class is the child class of [http://code.google.com/p/tiy/wiki/ClassKeyboardDevice KeyboardDevice] for low level keyboard reading in Windows.
 
-It is based on [http://oblita.com/Interception.html intercepting] keystrokes of ALL connected keyboards. This is done in a while loop started in a seperate thread.
+It is based on [http://oblita.com/Interception.html intercepting] keystrokes of ALL connected keyboards. This is done in a while loop started in a separate thread.
 
 = Usage = 
 
- * The keyboard devices are NOT blocked for other apllications/OS
+ * The keyboard devices are NOT blocked for other applications/OS
  * Only SPACE and ESC keys are implemented (but easily extendible in the code)
- * Only ONE keypress-event is buffered per key since last reset	
+ * Only ONE key press-event is buffered per key since last reset	
  * Users have to reset the key event variables manually	
 
 == Example ==
@@ -95,7 +95,7 @@ enum ScanCode
     SCANCODE_SPACE_2 = 0x39
 };
 }}}
-Standart keycodes of the specific keys (here ESC and SPACE).
+Standard key codes of the specific keys (here ESC and SPACE).
 
 = Methods =
 ----
