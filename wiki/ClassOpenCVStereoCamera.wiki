@@ -156,7 +156,7 @@ public:
 
 = Methods =
 ----
-*!OpenCVStereoCamera()*
+*OpenCVStereoCamera()*
 {{{
 	OpenCVStereoCamera(bool& do_debugging_, std::string& camera_id_left,
                             std::string& camera_id_right, int& frame_width_,
@@ -192,7 +192,7 @@ Constructor to initialize parameters for two video files as stereo input source 
 
   _video`_`file`_`left/right_: name of the left/right video file used as input (e.g.  "video_left.avi"/"video_right.avi")
 ----
-*`~`!OpenCVStereoCamera()*
+*`~`OpenCVStereoCamera()*
 {{{
 	virtual ~OpenCVStereoCamera() {};
 }}}
