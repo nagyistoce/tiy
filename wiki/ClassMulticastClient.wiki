@@ -1,6 +1,6 @@
 #summary Documentation of the MulticastClient class
 
-With the !MulticastClient class a UDP multicast client can be created,  waiting aynchronously to receive strings from a multicast server (e.g. [http://code.google.com/p/tiy/wiki/ClassMulticastServer MulticastServer]).
+With the !MulticastClient class a UDP multicast client can be created,  waiting asynchronously to receive strings from a multicast server (e.g. [http://code.google.com/p/tiy/wiki/ClassMulticastServer MulticastServer]).
 
 It is based on a cross-platform asio library [http://www.boost.org/doc/libs/1_41_0/doc/html/boost_asio/example/multicast/receiver.cpp example]. 
 
@@ -106,7 +106,7 @@ private:
 	                   short& multicast_port,
 	                    bool do_debugging_);
 }}}
-Creates and opens an udp socket with the given network parameters. Starts receiving (waiting for data) in a new thread and returns.
+Creates and opens an UDP socket with the given network parameters. Starts receiving (waiting for data) in a new thread and returns.
 
   _io`_`service_: boost asio io_service
 
@@ -138,7 +138,7 @@ Calls the client to stop.
 }}}
 Handles the received data (copy into a string) or errors and starts waiting for new data (in a new thread).
 
-  _error_: contains the information about an error, if occured
+  _error_: contains the information about an error, if occurred
 
-  _bytes`_`recvd_: containts the information on how many bytes received
+  _bytes`_`recvd_: contains the information on how many bytes received
 ----
