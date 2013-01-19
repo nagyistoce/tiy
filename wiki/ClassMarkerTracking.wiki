@@ -161,7 +161,7 @@ private:
 {{{
 	MarkerTracking(bool do_debugging_);
 }}}
-Initializes parameters and the kalman filter.
+Initializes parameters and the Kalman filter.
 
   _do`_`debugging_: set to true for debug output
 ----
@@ -186,7 +186,7 @@ Reads in the intrinsic and extrinsic parameters and properties of the stereo cam
 }}}
 Reads in 2D points (x,y pixel positions) in _points`_`2D_ out of the _frame`_`id_th line of the file _file`_`name_ (as an alternative to *get2DPointsFromImage()*, e.g. for testing (no camera needed)).
 
-Each line consists of a sequence of the x and y pixell positions (of a 2D point on a virtual left/right stereo image), with all values and pairs seperated by a seperator like SPACE or TAB (e.g. "344.003 888.938 647.873 732.0874 ...").
+Each line consists of a sequence of the x and y pixel positions (of a 2D point on a virtual left/right stereo image), with all values and pairs separated by a separator like SPACE or TAB (e.g. "344.003 888.938 647.873 732.0874 ...").
 
   _file`_`name_: name of the file to read the 2D points from
 
@@ -252,15 +252,15 @@ Outputs the given matrix in matrix-style with some additional information (usual
 {{{
 	const cv::Mat& kalmanPredict();
 }}}
-Makes the kalman filter prediction step (should be called right before *kalmanUpdate()*).
+Makes the Kalman filter prediction step (should be called right before *kalmanUpdate()*).
 ----
 *kalmanUpdate()*
 {{{
 	cv::Mat& kalmanUpdate(cv::Mat& measured_3D_object_points);
 }}}
-Returns the kalman filtered input data. 
+Returns the Kalman filtered input data. 
 
-  _measured`_`3D`_`object`_`points_: input data (e.g. the 3D position (x,y,z) of a tracked marker object) that should be kalman filtered
+  _measured`_`3D`_`object`_`points_: input data (e.g. the 3D position (x,y,z) of a tracked marker object) that should be Kalman filtered
 ----
 *readCameraConfigFile()*
 {{{
