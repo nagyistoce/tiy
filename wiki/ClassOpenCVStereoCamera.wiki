@@ -85,8 +85,9 @@ int main(int argc, char* argv[])
                   else
     	                  std::cerr << "grabFrame() failed" << std::endl;
 
-    	          std::cin.get();
-	          return 0;
+    	          stereo_camera->stopCam();
+	          cv::destroyAllWindows(); cv::waitKey(1); std::cin.get();
+	          break;
         }
 
         // 5. Record the grabbed frame to the video files (if selected)
