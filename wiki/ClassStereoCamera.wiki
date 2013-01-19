@@ -8,7 +8,7 @@ Child classes inheriting from !StereoCamera are [http://code.google.com/p/tiy/wi
 
 This base class implements the possibility of recording and showing the stereo frames. 
 
-For more informations (including examples), see child classes [http://code.google.com/p/tiy/wiki/ClassOpenCVStereoCamera OpenCVStereoCamera] and [http://code.google.com/p/tiy/wiki/ClassBaslerGigEStereoCamera BaslerGigEStereoCamera].
+For more information (including examples), see child classes [http://code.google.com/p/tiy/wiki/ClassOpenCVStereoCamera OpenCVStereoCamera] and [http://code.google.com/p/tiy/wiki/ClassBaslerGigEStereoCamera BaslerGigEStereoCamera].
 
 = Declaration =
 
@@ -110,7 +110,7 @@ Set the values of the mouse event variables (called by the update loop in *start
 }}}
 Initializes and opens a stereo video recorder. To actually record a stereo frame to the files, call *recordFrame()* for each frame.
 
-  _video`_`dst`_`file`_`left/right_: hardware id (win) or event file (unix) of the device
+  _video`_`dst`_`file`_`left/right_: hardware id (win) or event file (Unix) of the device
 ----
 *stopRecording()*
 {{{
