@@ -1,6 +1,6 @@
 #summary Documentation of the MulticastServer class
 
-With the !MulticastServer class a UDP multicast server can be created,  to send a string to all "connected" multicast clients (e.g. [http://code.google.com/p/tiy/wiki/ClassMulticastClient MulticastClient]).
+With the !MulticastServer class a UDP multicast server can be created,  to asynchronously send a string to all "connected" multicast clients (e.g. [http://code.google.com/p/tiy/wiki/ClassMulticastClient MulticastClient]).
 
 It is based on a cross-platform asio library [http://www.boost.org/doc/libs/1_41_0/doc/html/boost_asio/example/multicast/sender.cpp example]. 
 
@@ -89,7 +89,7 @@ private:
 	                  int& multicast_port,
 	                   bool do_debugging_);
 }}}
-Creates and opens an udp socket with the given network parameters. Starts receiving (waiting for data) in a new thread and returns.
+Creates and opens an UDP socket with the given network parameters. Starts receiving (waiting for data) in a new thread and returns.
 
   _io`_`service_: boost asio io_service
 
@@ -122,7 +122,7 @@ Calls the client to stop.
 {{{
 	 void handleSend(const boost::system::error_code& error);
 }}}
-Checks if errors occure during the sending.
+Checks if errors occur during the sending.
 
   _error_: contains information about a (potentially) error
 ----
