@@ -155,7 +155,7 @@ public:
 
 = Methods =
 ----
-*!BaslerGigEStereoCamera()*
+*BaslerGigEStereoCamera()*
 {{{
 	BaslerGigEStereoCamera(bool& do_debugging_, std::string& camera_id_left,
                                 std::string& camera_id_right, int& frame_width_,
@@ -176,7 +176,7 @@ public:
 
   _video`_`file`_`left/right_: name of the left/right video file used as input (e.g.  "video_left.avi"/"video_right.avi")
 ----
-*`~`!BaslerGigEStereoCamera()*
+*`~`BaslerGigEStereoCamera()*
 {{{
 	virtual ~BaslerGigEStereoCamera() {};
 }}}
