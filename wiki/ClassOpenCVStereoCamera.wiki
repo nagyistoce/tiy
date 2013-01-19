@@ -75,7 +75,7 @@ int main(int argc, char* argv[])
 
   while(true)
   {
-	// 4. Grabs the newest synchronized stereo frame (if the grab rate is higher than the frame rate, the frame can be the previous one) 
+	// 4. Grabs the newest synchronized stereo frame (if the grab rate is higher than the frame rate, the frame is possibly the previous one) 
 	if(!stereo_camera->grabFrame(image_left, image_right, frame_timestamp))
         {
 		  if (input_src == "v")
