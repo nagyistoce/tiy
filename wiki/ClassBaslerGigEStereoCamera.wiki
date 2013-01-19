@@ -2,14 +2,14 @@
 
 The !BaslerGigEStereoCamera class is a child class of [http://code.google.com/p/tiy/wiki/ClassStereoCamera StereoCamera] for handling two [http://blogs.gnome.org/emmanuel/2010/04/01/aravis-a-vision-library/ aravis] supported cameras to use as a stereo camera.
 
-Only linux is supported.
+Only Linux is supported.
 
 = Usage = 
 
-This child class implements the interface to two aravis compatible cameras (e.g. Basler acA1300-30gc GigE cameras) and grabbing synchronized stereo frames.
+This child class implements the interface to two Aravis compatible cameras (e.g. Basler acA1300-30gc GigE cameras) and grabbing synchronized stereo frames.
 
  * If no valid camera id was set, the available camera ids are listed
- * A bigger packet size for a better performance can be set (up to the network packet size) in the _bin_ subdirectory of the aravis installation folder by giving the camera id and packet size as arguments to the aravis tool. For example:
+ * A bigger packet size for a better performance can be set (up to the network packet size) in the _bin_ subdirectory of the Aravis installation folder by giving the camera id and packet size as arguments to the Aravis tool. For example:
   {{{
   ./arv-tool-0.2 -n Basler-21047766 control GevSCPSPacketSize=8192
   }}}
@@ -50,7 +50,7 @@ int main(int argc, char* argv[])
 		                                       m_track.frame_width, m_track.frame_height, m_track.camera_exposure,
                                                         m_track.camera_gain, m_track.frame_rate));
 #else
-  std::cerr << "BaslerGigEStereoCamera not available, as aravis NOT found/used." << std::endl;
+  std::cerr << "BaslerGigEStereoCamera not available, as Aravis NOT found/used." << std::endl;
   std::cin.get();
   return 0;
 #endif  
