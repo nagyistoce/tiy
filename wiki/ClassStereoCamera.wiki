@@ -1,6 +1,6 @@
 #summary Documentation of the StereoCamera class
 
-The !StereoCamera class is an abstract base class for handling stereo cameras. 
+The !StereoCamera class is an abstract base class for using two cameras as a stereo camera. 
 
 Child classes inheriting from !StereoCamera are [http://code.google.com/p/tiy/wiki/ClassOpenCVStereoCamera OpenCVStereoCamera] and [http://code.google.com/p/tiy/wiki/ClassBaslerGigEStereoCamera BaslerGigEStereoCamera].
 
@@ -126,9 +126,9 @@ Records (adds) the actual stereo frame to the video files _video`_`dst`_`file`_`
 ----
 *openCam()*
 {{{
-	virtual void openCam();
+	virtual bool openCam();
 }}}
-Opens/connects and configures the cameras (/video playback).
+Opens/connects and configures the cameras (/video playback). Returns false if not successful.
 ----
 *closeCam()*
 {{{
