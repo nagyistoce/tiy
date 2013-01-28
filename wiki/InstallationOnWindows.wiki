@@ -37,7 +37,7 @@ The _tiy`_`client_ example can be downloaded and installed without the TIY libra
 
 ==B. Build from source==
 
- # Download and unzip the newest _tiy-X.X..zip_ (or the _tiy`_`server_ or _tiy`_`client_ examples) file from the [http://code.google.com/p/tiy/downloads/list Downloads] section
+ # Download and unzip the newest _tiy-X.X..zip_ (or the _tiy`_`client_ example) file from the [http://code.google.com/p/tiy/downloads/list Downloads] section
  # Start _CMake_ (_cmake-gui_) and select the _src_ directory as source and the _build_ directory as build
  # Click _Configure_ and choose _Visual Studio 10_ (or 64-bit version) as generator
  # Change the options as you want to
