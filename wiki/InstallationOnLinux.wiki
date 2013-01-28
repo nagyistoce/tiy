@@ -28,11 +28,11 @@ Two options are available for installation:
 
 ==A. Pre-build package==
 
+The _tiy`_`client_ example can be downloaded and installed without the TIY library and on all PCs in the same network.
+
 _.deb_ packages for 64-bit (_amd64_) and 32-bit (_i386_) are available in the [http://code.google.com/p/tiy/downloads/list Downloads] section. The TIY library with the _tiy`_`server_ and _tiy`_`client_ example will be installed.
 
 For Aravis camera support, please build from source.
-
-The _tiy`_`client_ example can be downloaded and installed without the TIY library on PCs in the same network.
 
  # Download the newest _tiy-X.X.-linux_ _.deb_ package from the [http://code.google.com/p/tiy/downloads/list Downloads] area.
  # Install the package by double clicking on it or by (e.g.):
