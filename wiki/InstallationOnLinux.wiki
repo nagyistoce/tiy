@@ -53,7 +53,7 @@ $ ccmake ../src
 }}}
  Change the options as you want to
   * _BUILD`_`client_ _ON_: the client example will also be build
-  * _BUILD`_`linux_x64_ _ON_: build for 64-bit
+  * _BUILD`_`x64_ _ON_: build for 64-bit
   * _BUILD`_`server_ _ON_: the server example will also be build
   * _USE`_`ARAVIS_ _ON_: build with the Aravis camera interface
  and set the option _CMAKE`_`BUILD`_`TYPE_ to _Release_.
