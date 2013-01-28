@@ -31,9 +31,9 @@ Two options are available for installation:
 
 ==A. Pre-build installers==
 
-Download and install the newest _tiy-X.X.-win_ _.exe_ version from the [http://code.google.com/p/tiy/downloads/list Downloads] area for 64-bit (_amd64_) or 32-bit (_i386_) systems. The TIY library with the _tiy`_`server_ and _tiy`_`client_ example will be installed.
+The _tiy`_`client_ example can be downloaded and installed without the TIY library and on all PCs in the same network.
 
-The _tiy`_`client_ example can be downloaded and installed without the TIY library on PCs in the same network.
+For TIY, download and install the newest _tiy-X.X.-win_ _.exe_ version from the [http://code.google.com/p/tiy/downloads/list Downloads] area for 64-bit (_amd64_) or 32-bit (_i386_) systems. The TIY library with the _tiy`_`server_ and _tiy`_`client_ example will be installed.
 
 ==B. Build from source==
 
