@@ -28,18 +28,18 @@ Two options are available for installation:
 
 ==A. Pre-build package==
 
-_.deb_ packages with different labels are available in the [http://code.google.com/p/tiy/downloads/list Downloads] section:
- * 64-bit (_amd64_) or 32-bit (_i386_)
- * With Aravis library for Basler camera support (_ARV_) or without
- * With examples (_EX_) or without
- * Examples only (_tiy`_`server_ or _tiy`_`client_)
+_.deb_ packages for 64-bit (_amd64_) and 32-bit (_i386_) are available in the [http://code.google.com/p/tiy/downloads/list Downloads] section. The TIY library and the _tiy`_`server_ and _tiy`_`client_ examples will be installed.
+
+The label _ARAVIS_ says, if the support for the Aravis camera interface is included (Aravis library required).
+
+In addition, the _tiy`_`client_ example can be downloaded and installed independently of TIY on the same or other PCs in the same network.
 
  # Download the newest _tiy-X.X.-linux_ _.deb_ package from the [http://code.google.com/p/tiy/downloads/list Downloads] area.
  # Install the package by double clicking on it or by (e.g.):
  {{{ 
  sudo dpkg -i tiy-0.1.-linux-amd64.deb 
  }}} 
- removal of _tiy_, _tiy`_`server_ or _tiy`_`client_ by (e.g.):
+ removal by:
  {{{ 
  sudo dpkg -r tiy
  }}}
@@ -55,7 +55,7 @@ $ ccmake ../src
   * _BUILD`_`client_ _ON_: the client example will also be build
   * _BUILD`_`linux_x64_ _ON_: build for 64-bit
   * _BUILD`_`server_ _ON_: the server example will also be build
-  * _USE`_`ARAVIS_ _ON_: also build the Aravis library for Basler camera support
+  * _USE`_`ARAVIS_ _ON_: build with the Aravis camera interface
  and set the option _CMAKE`_`BUILD`_`TYPE_ to _Release_.
  Press the _C_ key a few times and then the _G_ key.
  # _make_ the project:
