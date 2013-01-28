@@ -3,7 +3,9 @@
 =What hardware components should I use?=
 In the following, a small selection of components is listed.
 
-==Two cameras with IR-pass filters==
+==Two infrared capable cameras==
+
+If not a very wide setup of more than a few meters is used or not very high precission is needed, cheap "all-in-on" USB infrared webcams can be used such as the [http://www.amazon.com/Sabrent-Night-Vision-Webcam-WCM-6LNV/dp/B000BEZVEA/ref=sr_1_1?ie=UTF8&qid=1359396564&sr=8-1&keywords=infrared+webcam Sabrent WCM-6LNV] or [http://www.geniusnet.com/wSite/ct?xItem=16756&ctNode=160 Genius ISlim 321R]. Then you can skip the following parts until "Set up the cameras for TIY".
 
 ===Gigabit Ethernet cameras (Linux)===
 GigE cameras working with the used Aravis library on linux can be seen here: https://live.gnome.org/AravisTestedCameras.
@@ -19,9 +21,9 @@ However they are expensive and additional hardware is needed (e.g. for 2 _Basler
 http://tiy.googlecode.com/svn/trunk/pics/baseler_camera_with_ir_leds.jpg
 
 ===OpenCV cameras===
-Much cheaper and easier to use are (USB) cameras supported by OpenCV (small selection at http://opencv.willowgarage.com/wiki/Welcome/OS).
+Much cheaper and easier to use are USB (web-)cameras supported by OpenCV (small selection at http://opencv.willowgarage.com/wiki/Welcome/OS).
 
-The more far away the two cameras are, the higher must be the resolution and the faster the objects must be tracked, the higher must be FPS rate.
+The more far away the two cameras are, the higher must be the resolution. The faster the objects need to be tracked, the higher must be the FPS rate.
 
 Unfortunately most of the webcams have IR cut filters in it. To remove it, see http://www.instructables.com/id/Infrared-IR-Webcam/ or especially for the well-known Logitech !QuickCam Pro 9000 http://www.ce.rit.edu/research/projects/2008_fall/Drowsy_Driver_Warning_System/tutorials/tutorial_ir.html.
 
