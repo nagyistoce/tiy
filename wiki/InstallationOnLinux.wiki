@@ -30,7 +30,7 @@ Two options are available for installation:
 
 _.deb_ packages for 64-bit (_amd64_) and 32-bit (_i386_) are available in the [http://code.google.com/p/tiy/downloads/list Downloads] section. The TIY library with the _tiy`_`server_ and _tiy`_`client_ example will be installed.
 
-The label _ARAVIS_ says, if the support for the Aravis camera interface is included (Aravis library required).
+For Aravis camera support, please build from source.
 
 The _tiy`_`client_ example can be downloaded and installed without the TIY library on PCs in the same network.
 
