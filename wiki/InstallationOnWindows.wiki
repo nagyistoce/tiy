@@ -4,6 +4,8 @@ Tested on Windows 7 64-bit.
 
 =Dependencies=
  * *Visual Studio 2010 / Visual C++ 10.0* from http://www.microsoft.com/visualstudio/eng/downloads#d-2010-express
+  For 64-bit compiler support, download and install the Windows Software Development Kit (version 7.1. for Windows 7 http://msdn.microsoft.com/en-us/windowsserver/bb980924.aspx)
+
   (for other compilers some of the following steps could be different)
  * *OpenCV* (>= 2.3):
    # Download the newest Version from http://sourceforge.net/projects/opencvlibrary/files/opencv-win/
