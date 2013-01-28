@@ -12,7 +12,7 @@ On Linux you have to change the _<keyboard`_`device`_`id>_ field in the run conf
 
 On Windows systems you can start _C:/tiy/bin/tiy/client.exe_ and _C:/tiy/bin/tiy/server.exe_ without any preconfigurations.
 
-http://tiy.googlecode.com/files/server_screenshot.jpg
+http://tiy.googlecode.com/svn/trunk/pics/server_screenshot.jpg
 
 Two windows (like that above) with recorded stereo videos should show up and data send from the server to the client. Detected 3D points are marked by a small black circle in the middle of the white shining marker balls and detected objects by a big circle in the middle of the first marker of every object.
 
