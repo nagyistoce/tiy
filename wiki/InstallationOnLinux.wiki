@@ -55,6 +55,7 @@ $ ccmake ../src
   * _BUILD`_`client_ _ON_: the client example will also be build
   * _BUILD`_`server_ _ON_: the server example will also be build
   * _USE`_`ARAVIS_ _ON_: build with the Aravis camera interface
+  * (advanced option:) _BUILD`_`x64_: build in 32-Bit or 64-Bit
  and set the option _CMAKE`_`BUILD`_`TYPE_ to _Release_.
  Press the _C_ key a few times and then the _G_ key.
  # _make_ the project:
