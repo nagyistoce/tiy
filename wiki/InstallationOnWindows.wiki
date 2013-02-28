@@ -63,7 +63,7 @@ For TIY, download and install the newest _tiy-X.X.-win_ _.exe_ version from the 
 
  # Download and unzip the newest _tiy-X.X..zip_ (or the _tiy`_`client_ example) file from the [http://code.google.com/p/tiy/downloads/list Downloads] section
  # Start _CMake_ (_cmake-gui_) and select the _src_ directory as source and the _build_ directory as build
- # Click _Configure_ and choose _Visual Studio 10_ (or Win64 version fir 64-bit) as generator
+ # Click _Configure_ and choose _Visual Studio 10_ (or Win64 version for 64-bit) as generator
  # Change the options as you want to
   * _BUILD`_`client_: the client example will also be build
   * _BUILD`_`server_: the server example will also be build
