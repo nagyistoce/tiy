@@ -16,7 +16,7 @@ Tested on Windows 7 64-bit.
    # Copy the files _tbb.dll_ and _tbb_debug.dll_ from _C:\OpenCV2.4\build\common\tbb\intel64\vc10\_ to _C:\OpenCV2.4\build\x64\vc10\bin_ for 64-bit and/or from _C:\OpenCV2.4\build\common\tbb\ia32\vc10\_ to _C:\OpenCV2.4\build\x86\vc10\bin_ for 32-bit
  * (Build) *Boost* (>= 1.46): 
    # Download the newest version from http://sourceforge.net/projects/boost/files/boost/
-   # Unzip the folder (to e.g. c:\boost_1_53_0, but NOT into c:\boost\boost_1_53_0)
+   # Unzip the folder (to e.g. _C:\boost`_`1`_`53`_`0_, but NOT into _C:\boost\boost`_`1`_`53`_`0_)
    # For 32-bit, start a MSVC command prompt (_Start_->_ALL Programms_->_Microsoft Visual Studio 2010 Express_), for 64-Bit (or also 32-Bit), start a SDK command prompt instead (_Start_->_ALL Programms_->_Microsoft Windows SDK v7.1_)
    # Navigate to the directory where Boost was unzipped to:
    {{{
@@ -29,7 +29,7 @@ setenv /x86 /Release  // only necessary in the SDK command prompt
    {{{
 bootstrap
    }}}
-   # Build boost for 32-Bit
+   # Build boost for 32-Bit (header files: _C:\boost\include\boost-(version)_, 32(64)-bit libraries: _C:\boost\lib\boost-(version)_)
    {{{
 b2 --toolset=msvc-10.0 --build-type=complete install --libdir=C:\boost\lib\ --includedir=C:\boost\include\ --with-thread --with-chrono --with-regex --with-date_time --with-filesystem --with-system
    }}}
