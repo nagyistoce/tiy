@@ -1,23 +1,27 @@
 #summary Installation instructions for the TIY library (and examples) on Linux.
 
-Tested on Ubuntu 11.10, 12.04 and 12.10 64-bit.
+Tested on Ubuntu 11.10, 12.04 and 12.10 all in 64-bit.
 
 =Dependencies=
- * *OpenCV* (>= 2.3): 
+ * *OpenCV* (>= 2.2): 
  {{{ 
  $ sudo apt-get install libopencv-dev
  }}}
  * *Boost* (>= 1.46): 
  {{{ 
- $ sudo apt-get install libboost-dev libboost-filesystem-dev libboost-system-dev libboost-date-time1.4.6-dev libboost-thread1.46-dev
+ $ sudo apt-get install libboost-dev libboost-filesystem-dev libboost-system-dev libboost-date-time-dev libboost-thread-dev
  }}}
  * *CMake* and Compilers (optional - only when building TIY yourself)
  {{{ 
- $ sudo apt-get install cmake build-essential
+ $ sudo apt-get install cmake build-essential cmake-curses-gui
  }}}
- * *Aravis* (>= 1.15) (optional - only for Basler cameras):
-   # download and extract the newest library from http://ftp.gnome.org/pub/gnome/sources/aravis/
-   # go into the directory and _configure_ (see _./configure --help_ for more information):
+ * *Aravis* (>= 1.15) (optional - only for Aravis supported cameras (e.g. Basler)):
+   # install required software
+ {{{ 
+ $ sudo apt-get install intltool libglib2.0-dev libgstreamer-plugins-base0.10-dev libgtk-3-dev
+ }}}
+   # download and extract the newest Aravis library from http://ftp.gnome.org/pub/gnome/sources/aravis/
+   # go into the extracted directory and _configure_ (see _./configure --help_ for more information):
  {{{ 
  $ ./configure --enable-gst-plugin --enable-viewer --enable-gtk3
  }}}
