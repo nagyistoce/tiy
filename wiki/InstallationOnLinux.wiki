@@ -1,6 +1,6 @@
 #summary Installation instructions for the TIY library (and examples) on Linux.
 
-Tested for Ubuntu 11.10 and 12.04 64-bit.
+Tested on Ubuntu 11.10, 12.04 and 12.10 64-bit.
 
 =Dependencies=
  * *OpenCV* (>= 2.3): 
@@ -15,9 +15,13 @@ Tested for Ubuntu 11.10 and 12.04 64-bit.
  {{{ 
  $ sudo apt-get install cmake build-essential
  }}}
- * *Aravis* (>= 0.1.15) (optional - only for Basler cameras):
+ * *Aravis* (>= 1.15) (optional - only for Basler cameras):
    # download and extract the newest library from http://ftp.gnome.org/pub/gnome/sources/aravis/
-   # go into the directory and _configure_ (see _./configure --help_), _make_ and _make install_ the library
+   # go into the directory and _configure_ (see _./configure --help_ for more information):
+ {{{ 
+ $ ./configure --enable-gst-plugin --enable-viewer --enable-gtk3
+ }}}
+   # _make_ and _make install_ the library
 
 
 =TIY library (and examples)=
@@ -51,7 +55,7 @@ For Aravis camera support, please build from source.
 {{{
 $ ccmake ../src
 }}}
- Change the options as you want to
+ Press the _C_ key, change the options as you want to
   * _BUILD`_`client_ _ON_: the client example will also be build
   * _BUILD`_`server_ _ON_: the server example will also be build
   * _USE`_`ARAVIS_ _ON_: build with the Aravis camera interface
