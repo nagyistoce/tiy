@@ -18,7 +18,7 @@ Tested on Ubuntu 11.10, 12.04 and 12.10 all in 64-bit.
  * *Aravis* (>= 1.15) (optional - only for Aravis supported cameras (e.g. Basler)):
    # install required software
  {{{ 
- $ sudo apt-get install libglib2.0-dev libgtk-3-dev debhelper autotools-dev intltool cdbs libgtk2.0-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libxml2-dev
+ $ sudo apt-get install libglib2.0-dev libgtk-3-dev intltool libgtk2.0-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
  }}}
    # download and extract the newest Aravis library from http://ftp.gnome.org/pub/gnome/sources/aravis/
    # go into the extracted directory and _configure_ (see _./configure --help_ for more information):
